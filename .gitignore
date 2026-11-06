@@ -1,0 +1,35 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# JavaScript dependencies and builds
+node_modules/
+dist/
+dist-ssr/
+
+# Local data, logs, and editor files
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.trend-test-deps/
+.trend-verification.json
+.trend-baseline-check.py
